@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <img class="logo" src="./img/logoOne.png" alt="pustoto" />
+
+        <nav class="header__nav">
+          <ul>
+            <li><a href="#main">Главная</a></li>
+            <li><a href="#about">Направлении</a></li>
+            <li><a href="#footer">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="main">
+      <section class="welcome">
+        <div class="container">
+          <h2 class="welcome__heading">
+            Профициональный лицей инновационных технологий №99
+          </h2>
+          <div class="welcome__links">
+            <a href="" class="link-prinary hide">sign up</a>
+            <a href="#more" class="link">узнать больше</a>
+          </div>
+        </div>
+      </section>
+      <section class="more" id="more">
+        <div class="container">
+          <h2>Учреждение "Профессиональный лицей информационных технологий № 99 при Президенте Кыргызской Республики" разрешат получать доходы от образовательной и учебно-производственной деятельности,
+            самостоятельно определять внутреннюю структуру управления и штатную численность, а также самостоятельно формировать и утверждать тарифы на оказываемые платные образовательные услуги.</h2>
+        </div>
+      </section>
+
+      <section id="about" class="about common-section">
+        <div class="container">
+          <div class="title-wrapper">
+            <h3 class="title">Направлении</h3>
+            <p class="subtitle">
+              ПРОФЕССИОНАЛЬНЫЙ ЛИЦЕЙ ИНФОРМАЦИОННЫХ ТЕХНОЛОГИЙ ГОТОВИТ
+              СПЕЦИАЛИСТОВ ВЫСОКОГО УРОВНЯ ДЛЯ СОВРЕМЕННОЙ ИНДУСТРИИ.
+            </p>
+          </div>
+
+          <div class="cards-wrapper">
+            <div class="card">
+              <img src="/img/web-developer.jpg" alt="icon" />
+              <h4>Веб программист</h4>
+              <p>
+                ПЛИТ №99 готовит веб-программистов, обучая современным языкам,
+                таким как HTML, CSS, JavaScript и Python. Наша цель -
+                подготовить специалистов к успешной карьере в сфере
+                веб-программирования.
+              </p>
+            </div>
+
+            <div class="card">
+              <img src="./img/sistemnyj-administrator.jpg" alt="icon" />
+              <h4>Системный администратор</h4>
+              <p>
+                ПЛИТ №99 готовит системных администраторов, обучая работе с
+                современными информационными системами и сетями, включая
+                обслуживание и обеспечение безопасности.Наша цель - подготовить
+                квалифицированных специалистов.
+              </p>
+            </div>
+            <div class="card">
+              <img
+                src="./img/car-mechanic-and-repair-shop-concept-vector-29552730.jpg"
+                alt="icon"
+              />
+              <h4>Авто Механик</h4>
+              <p>
+                ПЛИТ №99 готовит слесарей по ремонту автомобилей, обучая
+                студентов основам автомеханики, ремонту и техническому
+                обслуживанию авто. Ученики получают практические навыки работы с
+                автомобильными системами и компонентами.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services common-section common-section--dark hide">
+        <div class="container">
+          <div class="title-wrapper">
+            <h3 class="title">Сотрудники</h3>
+            <!--<p class="subtitle">This is some text inside of a div block</p>-->
+          </div>
+
+          <div class="cards-wrapper ">
+            <div class="card">
+              <img
+                src="img/plit99-high-resolution-logo-transparent.png"
+                alt="img"
+              />
+              <h4>Services one</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                voluptatem quia aspernatur nemo dolores sapiente optio assumenda
+                architecto? Dolor, error quas consequuntur similique eius&nbsp;
+                numquam.
+              </p>
+              <a href="" class="link">Learn more</a>
+            </div>
+
+            <div class="card">
+              <img
+                src="img/plit99-high-resolution-logo-transparent.png"
+                alt="img"
+              />
+              <h4>Services two</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                voluptatem quia aspernatur nemo dolores sapiente optio assumenda
+                architecto? Dolor, error quas consequuntur similique eius&nbsp;
+                numquam.
+              </p>
+              <a href="" class="link">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tab-section common-section">
+        <div class="container">
+          <div class="title-wrapper">
+            <h3 class="title">Дополнительные курсы</h3>
+            <!--<p class="subtitle">This is some text inside of a div block</p>-->
+          </div>
+
+          <div class="tabs">
+            <div class="tabs__nav">
+              <button class="active" type="button">Робототехника</button>
+              <button type="button">карате</button>
+              <button type="button">волейбольные секции</button>
+            </div>
+
+            <div class="tabs__item">
+              <img src="./img/robot_190410.jpg" alt="plit" />
+              <h4>Робототехника</h4>
+              <div class="tabs__desc">
+                <p>
+                  ПЛИТ №99 также занимается обучением робототехнике. Ученики
+                  изучают основы робототехники, программирование роботов, работу
+                  с датчиками и механизмами управления. Наша программа позволяет
+                  студентам овладеть навыками создания и программирования
+                  роботов, что открывает перед ними перспективы в инновационных
+                  областях, таких как автоматизация производства, разработка
+                  дронов и многое другое
+                </p>
+              </div>
+            </div>
+
+            <div class="tabs__item">
+              <img
+                src="./img/wallpaperflare.com_wallpaper (1).jpg"
+                alt="plit"
+              />
+              <h4>Карате</h4>
+              <div class="tabs__desc">
+                <p>
+                  Профессиональный лицей №99 также предлагает курсы карате.
+                  Ученики имеют возможность изучать и совершенствовать свои
+                  навыки в этом боевом искусстве под руководством опытных
+                  инструкторов. Обучение карате способствует развитию физической
+                  формы, координации движений, а также улучшает самоконтроль и
+                  дисциплину. Участие в карате курсах также способствует
+                  развитию уверенности в себе и уважения к другим.
+                </p>
+              </div>
+            </div>
+
+            <div class="tabs__item">
+              <img src="./img/6.jpg" alt="plit" />
+              <h4>волейбольные секции</h4>
+              <div class="tabs__desc">
+                <p>
+                  Профессиональный лицей №99 также предлагает волейбольные
+                  курсы. Ученики имеют возможность изучать и совершенствовать
+                  свои навыки в волейболе под руководством опытных тренеров.
+                  Участие в волейбольных курсах способствует развитию физической
+                  формы, координации движений, командной работы и тактического
+                  мышления. Волейбол также способствует развитию дружеских
+                  отношений и спортивного духа.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="twoGis">
+      <div class="container">
+        <a
+          class="dg-widget-link"
+          href="http://2gis.kg/bishkek/firm/70000001040535756/center/74.58755493164064,42.864389570537675/zoom/12?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=bigMap"
+          >Посмотреть на карте Бишкека</a
+        >
+        <div class="dg-widget-link">
+          <a
+            href="http://2gis.kg/bishkek/firm/70000001040535756/photos/70000001040535756/center/74.58755493164064,42.864389570537675/zoom/17?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=photos"
+            >Фотографии компании</a
+          >
+        </div>
+        <div class="dg-widget-link">
+          <a
+            href="http://2gis.kg/bishkek/center/74.629838,42.855611/zoom/12/routeTab/rsType/bus/to/74.629838,42.855611╎IT-Академия КГЮА?utm_medium=widget-source&utm_campaign=firmsonmap&utm_source=route"
+            >Найти проезд до IT-Академия КГЮА</a
+          >
+        </div>
+        <script
+          charset="utf-8"
+          src="https://widgets.2gis.com/js/DGWidgetLoader.js"
+        ></script>
+        <script charset="utf-8">
+          new DGWidgetLoader({
+            width: 940,
+            height: 400,
+            borderColor: "#a3a3a3",
+            pos: {
+              lat: 42.864389570537675,
+              lon: 74.58755493164064,
+              zoom: 12,
+            },
+            opt: { city: "bishkek" },
+            org: [{ id: "70000001040535756" }],
+          });
+        </script>
+        <noscript style="color: #c00; font-size: 16px; font-weight: bold"
+          >Виджет карты использует JavaScript. Включите его в настройках вашего
+          браузера.</noscript
+        >
+      </div>
+    </div>
+
+    <footer id="footer" class="footer">
+      <div class="footer__desc">
+        <div class="container footer__desc-container">
+          <div class="footer__links">
+            <h4>Ccылки</h4>
+            <ul>
+              <li>
+                <a
+                  href="https://2gis.kg/bishkek/firm/70000001019348944?m=74.630101%2C42.855589%2F16"
+                  >​Улица Максима Горького, 18, Бишкек</a
+                >
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="proflyceum@gmail.com">Почта лицея</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__links">
+            <h4>Тех поддержка</h4>
+            <ul>
+              <ul>
+                <li>+996559255811</li>
+                <li>+996556557504</li>
+              </ul>
+            </ul>
+          </div>
+          <div class="footer__social">
+            <h4>Социальные</h4>
+            <ul>
+              <li>
+                <img
+                  src="https://store-images.s-microsoft.com/image/apps.4784.13634052595610511.c45457c9-b4af-46b0-8e61-8d7c0aec3f56.3d483847-81a6-4078-8f83-a35c5c38ee92?h=464"
+                  alt=""
+                />
+                <a href="https://www.tiktok.com/@99litsey_">TikTok</a>
+              </li>
+              <li>
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/800px-Instagram_logo_2022.svg.png"
+                  alt=""
+                />
+                <a href="https://www.instagram.com/99litsey/">Instagram</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+          <div class="box">
+
+
+        </div>    
+      </div>
+    </footer>
+    <script src="./main.js"></script>
+  </body>
+</html>
